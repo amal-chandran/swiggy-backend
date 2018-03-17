@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "choiceGroup"("cgid" serial NOT NULL, "name" text NOT NULL,
+      "type" text NOT NULL, "content" json NOT NULL, PRIMARY KEY ("cgid") )
+  type: run_sql
+- args:
+    name: choiceGroup
+  type: add_existing_table_or_view

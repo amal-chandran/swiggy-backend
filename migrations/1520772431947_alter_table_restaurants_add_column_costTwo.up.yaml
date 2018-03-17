@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "restaurants" ADD COLUMN "costTwo" text NUll
+  type: run_sql

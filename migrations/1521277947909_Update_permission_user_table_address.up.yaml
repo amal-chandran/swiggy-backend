@@ -1,0 +1,7 @@
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+    role: user
+    table: address
+  type: create_insert_permission

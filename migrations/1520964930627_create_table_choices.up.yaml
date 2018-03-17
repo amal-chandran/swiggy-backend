@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "choices"("coid" serial NOT NULL, "name" text NOT NULL, PRIMARY
+      KEY ("coid") )
+  type: run_sql
+- args:
+    name: choices
+  type: add_existing_table_or_view

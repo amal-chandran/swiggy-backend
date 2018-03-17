@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - mobile
+      - name
+      - pid
+      - uid
+      filter: {}
+    role: user
+    table: profile
+  type: create_select_permission

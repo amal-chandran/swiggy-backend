@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "location" DROP COLUMN "time"
+  type: run_sql

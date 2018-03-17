@@ -1,0 +1,15 @@
+- args:
+    permission:
+      columns:
+      - rid
+      - name
+      - imageCover
+      - costTwo
+      - type
+      - rating
+      - servetime
+      - address
+      filter: {}
+    role: user
+    table: restaurants
+  type: create_select_permission

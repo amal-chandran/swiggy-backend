@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "article_like_count"
+  type: run_sql

@@ -1,0 +1,6 @@
+- args:
+    sql: |-
+      CREATE VIEW menuitemsrestaurantmenu AS SELECT co.name,co.icon,rs.name AS restaurant FROM choices
+            AS co,choicestypelink AS ck,itemrestaurantslink AS trk,restaurants AS rs WHERE co.coid=ck.choiceid AND ck.typeid=trk.itemid AND rs.rid=trk.restaurantsid AND co."type"='RestaurantsMenuList'
+            GROUP BY co.coid,rs.name
+  type: run_sql

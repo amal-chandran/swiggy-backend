@@ -1,0 +1,3 @@
+- args:
+    name: restaurantsmenugrouped
+  type: add_existing_table_or_view

@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "location"("lid" serial NOT NULL, "name" text NOT NULL, "time"
+      text NOT NULL, PRIMARY KEY ("lid") )
+  type: run_sql
+- args:
+    name: location
+  type: add_existing_table_or_view

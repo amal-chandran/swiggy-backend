@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "choiceGroup"
+  type: run_sql

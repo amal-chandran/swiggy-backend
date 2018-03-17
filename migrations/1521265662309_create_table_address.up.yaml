@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "address"("addressid" serial NOT NULL, "address" text NOT NULL,
+      "doorflatno" text NOT NULL, "landmark" text NOT NULL, PRIMARY KEY ("addressid")
+      )
+  type: run_sql
+- args:
+    name: address
+  type: add_existing_table_or_view

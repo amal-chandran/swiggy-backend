@@ -1,0 +1,7 @@
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+    role: user
+    table: profile
+  type: create_insert_permission

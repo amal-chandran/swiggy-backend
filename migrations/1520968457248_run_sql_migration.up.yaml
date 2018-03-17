@@ -1,0 +1,4 @@
+- args:
+    sql: CREATE VIEW article_like_count AS SELECT co.name,co.icon,COUNT(*) FROM choices
+      AS co,choicestypelink AS ck WHERE co.coid=ck.choiceid GROUP BY co.coid;
+  type: run_sql

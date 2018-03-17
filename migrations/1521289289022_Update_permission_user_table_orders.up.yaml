@@ -1,0 +1,7 @@
+- args:
+    permission:
+      allow_upsert: true
+      check: {}
+    role: user
+    table: orders
+  type: create_insert_permission

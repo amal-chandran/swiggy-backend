@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "menuitemsrestaurantmenu"
+  type: run_sql

@@ -1,0 +1,9 @@
+{
+    "url": {
+        "login": "https://auth.breathtakingly54.hasura-app.io/v1/login",
+        "signup": "https://auth.breathtakingly54.hasura-app.io/v1/signup",
+        "logout": "https://auth.breathtakingly54.hasura-app.io/v1/user/logout",
+        "data": "https://data.breathtakingly54.hasura-app.io/v1/query",
+        "downloadfile": "https://filestore.breathtakingly54.hasura-app.io/v1/file/"
+    }
+}

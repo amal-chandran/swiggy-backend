@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "items"("itemid" serial NOT NULL, "name" text NOT NULL, "type"
+      text NOT NULL, "imageCover" text NOT NULL, "veg" boolean NOT NULL, "cost" numeric
+      NOT NULL, PRIMARY KEY ("itemid") )
+  type: run_sql
+- args:
+    name: items
+  type: add_existing_table_or_view

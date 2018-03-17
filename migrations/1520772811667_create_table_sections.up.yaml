@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "sections"("sid" serial NOT NULL, "name" text NOT NULL, "type"
+      text NOT NULL, "content" json NOT NULL, PRIMARY KEY ("sid") )
+  type: run_sql
+- args:
+    name: sections
+  type: add_existing_table_or_view

@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "profile"("pid" serial NOT NULL, "name" text NOT NULL, "mobile"
+      numeric NOT NULL, "uid" integer NOT NULL, PRIMARY KEY ("pid") )
+  type: run_sql
+- args:
+    name: profile
+  type: add_existing_table_or_view

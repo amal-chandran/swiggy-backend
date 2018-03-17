@@ -1,0 +1,13 @@
+- args:
+    permission:
+      columns:
+      - doorflatno
+      - uid
+      - addressid
+      - landmark
+      - addresstype
+      - address
+      filter: {}
+    role: user
+    table: address
+  type: create_select_permission

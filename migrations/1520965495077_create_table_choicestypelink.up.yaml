@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "choicestypelink"("linkid" serial NOT NULL, "choiceid" numeric
+      NOT NULL, "typeid" numeric NOT NULL, "typename" text NOT NULL, PRIMARY KEY ("linkid")
+      )
+  type: run_sql
+- args:
+    name: choicestypelink
+  type: add_existing_table_or_view

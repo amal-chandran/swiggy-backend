@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "itemrestaurantslink"("trlinkid" serial NOT NULL, "itemid" numeric
+      NOT NULL, "restaurantsid" numeric NOT NULL, "type" text NOT NULL, PRIMARY KEY
+      ("trlinkid") )
+  type: run_sql
+- args:
+    name: itemrestaurantslink
+  type: add_existing_table_or_view

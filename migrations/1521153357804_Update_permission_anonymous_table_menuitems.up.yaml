@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - name
+      - icon
+      - count
+      filter: {}
+    role: anonymous
+    table: menuitems
+  type: create_select_permission

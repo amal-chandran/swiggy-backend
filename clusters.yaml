@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: breathtakingly54-hasura
+  data: null
+  kubeContext: breathtakingly54
+  name: breathtakingly54

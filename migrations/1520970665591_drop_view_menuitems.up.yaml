@@ -1,0 +1,3 @@
+- args:
+    sql: DROP VIEW "menuitems"
+  type: run_sql

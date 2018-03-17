@@ -1,0 +1,14 @@
+- args:
+    permission:
+      columns:
+      - itemid
+      - choicename
+      - cost
+      - veg
+      - name
+      - imageCover
+      - type
+      filter: {}
+    role: anonymous
+    table: restaurantsmenugrouped
+  type: create_select_permission
